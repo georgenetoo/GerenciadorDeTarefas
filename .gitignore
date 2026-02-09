@@ -1,0 +1,15 @@
+# Ignorar as bibliotecas pesadas (Node Modules)
+node_modules/
+**/node_modules/
+
+# Ignorar arquivos de build
+dist/
+build/
+
+# Ignorar banco de dados local (Segurança)
+*.db
+*.sqlite
+
+# Ignorar logs e arquivos do sistema
+*.log
+.DS_Store
